@@ -24,5 +24,5 @@ const verifyTokenMiddleware = (req: any, res: Response, next: NextFunction) => {
 };
 
 export const authJwt = {
-    verifyToken: verifyTokenMiddleware, // Renaming the key for clarity
+    verifyToken: verifyTokenMiddleware,
 };
