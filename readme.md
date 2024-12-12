@@ -64,7 +64,7 @@
             body: {"username": "admin_user", "password": "admin_user"}
         5.3 get all items(this api is accessible to both type of roles)
             request: get
-            api: http://localhost:3000/api/prooduct
+            api: http://localhost:3000/api/product
         5.4 create product(can be accessed only by admin)
             request: POST
             body: {"name": "maggie", "price": 10, "stock": 200 }
@@ -75,4 +75,4 @@
             api: http://localhost:3000/api/product/2
         5.6 delete product(can be accessed only by admin)
             request: delete
-            api: http://localhost:3000/api/product/2
+            api: http://localhost:3000/api/product/6
