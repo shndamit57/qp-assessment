@@ -10,7 +10,7 @@ class OrderRepository {
         const order = await Order.create({
             userid,
             productid,
-            orderQuantity: quantity,
+            quantity,
         });
 
         product.stock -= quantity;
